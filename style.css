@@ -336,6 +336,9 @@ label {
    justify-content: center;
    margin: 40px 0;
 }
+.map2 [
+    display: block; 
+]
 footer {
     background-color: white;
     padding: 5px;
@@ -777,18 +780,12 @@ main {
     align-items: center;
     flex-flow: row wrap;
     background-color: white;
-    /* width: 80%; */
-    /* max-width: 350px; */
     padding:20px;
-    /* max-height: fit-content;
-    min-height: 180px; */
-    margin: 0 20px;
+    margin: 0;
   
     
 }
-.box-wrapper {
-    width: 33%;
-}
+
 .box p {
     margin: 0;
     padding-bottom: 10px;
@@ -808,14 +805,68 @@ main {
     color: #767676;
     
 }
-
-
+.box-b{
+    height: 150px;
+}
+.box-b h5 {
+    margin-bottom: 5px;
+}
+.sub-box {
+    width: 50%;
+    text-align: left;
+}
+.box10 {
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-shadow: none;
+    width: 100%;
+ 
+    margin-bottom: 10px;
+}
+.box10-a {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  
+    margin-bottom: 10px;
+}
+.box10-a * {
+    width: 100%; 
+}
+.box10-left {
+    margin-right: 10px;
+}
 .fa {
     font-size: 2.5rem;
 }
 
 .box img {
     margin: 5px 0;
+}
+.main-5a {
+    width: 50%;
+    
+}
+.main-5b{
+    width: 50%;
+}
+.main-5a .box10-a {
+    width: 45%;
+    box-sizing: border-box;
+    height: 120px;
+ 
+
+}
+.map2 {
+  
+   padding-top: 20px;
+}
+.map {
+    display: none;
 }
 
 }
